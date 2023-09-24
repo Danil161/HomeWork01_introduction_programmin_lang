@@ -10,9 +10,9 @@ int n2 = Convert.ToInt32(Console.ReadLine());
 
 if (n1 > n2)
 {
-    Console.WriteLine("Первое число больше!");
+    Console.WriteLine($"Первое число больше: {n1}");
 }
 else
 {
-    Console.WriteLine("Второе число больше!");
+    Console.WriteLine($"Второе число больше: {n2}");
 }
